@@ -1,0 +1,23 @@
+
+/* navbar */
+
+.nav-name:hover {
+    background: linear-gradient(135deg, rgb(0, 0, 255), rgb(153, 153, 255), rgb(230, 230, 255));
+    cursor: pointer;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset
+    /* box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset; */
+}
+
+.nav li:hover::after {
+    display: block;
+}
+
+
+/* content */
+
+.school-name:hover,
+.pop-up:hover {
+    opacity: .5;
+    color: black;
+}
+
